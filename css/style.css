@@ -10081,6 +10081,12 @@ header .colorlib-navbar-brand {
     margin-top: 140px;
 }
 
+@media (min-width:420px) {
+    header .colorlib-navbar-brand {
+        margin-top: 50px;
+    }
+}
+
 header .colorlib-navbar-brand .colorlib-logo {
     font-size: 20px;
     color: #fff;
@@ -12341,7 +12347,7 @@ textarea.form-control {
     }
 }
 
-.owl-stage-outer {
+.home-slider .owl-stage-outer {
     background: #fff;
     opacity: 0.3;
 }
